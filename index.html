@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E3-jS</title>
+</head>
+
+<body>
+    <div id="pizzaList" style="text-align: center;">
+        <div>
+            <div class="card">
+                <h3>Ingrese un número para elegir su pizza.</h3>
+                <img id="img-pizza" src="" alt="Pizza">
+                <div class="container">
+                    <p>Nombre de la pizza: <span class="texts" id="pizzaName"> </span></p>
+                    <p>Precio: <span class="texts" id="pizzaPrice"></span></p>
+                    <p>Ingredientes: <span class="texts" id="pizzaIngredients"></span></p>
+                </div>
+                <div id="container-search">
+                    <input type="number" value="" id="value-id">
+                    <button id="search-pizza" onclick="searchPizza()" type="button">Buscar</button>
+                </div>
+            </div>
+        </div>
+
+        <p id="empty"> </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
